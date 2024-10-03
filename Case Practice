@@ -1,0 +1,15 @@
+Day = input("Enter Day of the Week")
+
+match Day:
+    
+    case"Monday":
+        print("f{Day}) is the first day of the week, very boring")
+    
+    case"Thursday":
+        print("is the last day before the weekend")
+    
+    case"Friday":
+        print("is the best day of the week")
+    
+    case"_":
+        print("Error invalid")
