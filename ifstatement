@@ -1,0 +1,10 @@
+number = int(input("Enter number from 1-3"))
+
+if(number == 1):
+    print("The value of your number is one")
+elif(number == 2):
+    print("The value of your number is two")
+elif(number == 3):
+    print("The value of your number is three")
+else:
+    print("The value is unknown")
